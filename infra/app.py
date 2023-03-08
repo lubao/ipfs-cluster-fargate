@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 import os
-
 import aws_cdk as cdk
-
-from ipfs_cluster.ipfs_cluster_fargate_stack import IpfsClusterFargateStack
+# from setuptools import setup, find_packages
+# setup(name = 'stack', packages = find_packages())
+from stack.ipfs_cluster_fargate_stack import IpfsClusterFargateStack
 
 from dotenv import dotenv_values
 
